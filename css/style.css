@@ -16,23 +16,28 @@ body {
 #highlight {
     font-size: 45px;
     margin: 0 auto;
+    //background-color: rgba(255,0,0,0.8);
+    
+}
+
+.red {
+    background-color: rgba(255,0,0,0.8);
 }
 
 .section1 {
     min-height: 600px;
-   background-image: url('../img/banner.jpg');
+   background-image: url('../img/sunrise2.jpg');
     background-size: cover;
 }
 
 .section2 {
-    padding-top: 50px;
-    min-height: 400px;
-    /*background-color: #1F4659;*/
-	background-color: #000;
+    padding-top: 0.5px;
+    min-height: 300px;
+    background-color: #1F4659;
 }
 
 .section3 {
-    min-height: 200px;
+    min-height: 300px;
     background-color: #ADAFAA;
 }
 
@@ -46,3 +51,26 @@ body {
     width: 1000px;
     height: 1000px;
 }
+
+.participant_full{
+    
+}
+
+
+#map-canvas{
+    
+                width: 890px;
+                height: 500px;
+}
+
+   #panel {
+                position: absolute;
+                top: 5px;
+                left: 50%;
+                margin-left: -180px;
+                z-index: 5;
+                /* background-color: #fff;*/
+                background-color: #002a80;
+                padding: 5px;
+                border: 1px solid #999;
+            }
